@@ -1,11 +1,13 @@
+import React from "react";
+
 export function Card({ children, className = "" }) {
   return (
-    <div className={`bg-white rounded-2xl shadow-md p-4 ${className}`}>
+    <div className={`bg-white rounded-lg shadow-lg p-6 ${className}`}>
       {children}
     </div>
   );
 }
 
 export function CardContent({ children, className = "" }) {
-  return <div className={`mt-2 ${className}`}>{children}</div>;
+  return <div className={`mt-4 ${className}`}>{children}</div>;
 }

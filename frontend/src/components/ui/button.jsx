@@ -1,9 +1,11 @@
+import React from "react";
+
 export function Button({ children, onClick, className = "", type = "button" }) {
   return (
     <button
       type={type}
       onClick={onClick}
-      className={`px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition ${className}`}
+      className={`px-5 py-3 bg-secondary text-white rounded-md hover:bg-secondary/90 transition ${className}`}
     >
       {children}
     </button>

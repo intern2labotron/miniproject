@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card.jsx';
 import { getItems, addItem } from '../services/api';
 import ItemForm from '../components/ItemForm';
 import ItemList from '../components/ItemList';
